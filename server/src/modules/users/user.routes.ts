@@ -1,9 +1,6 @@
-import type {FastifyInstance, FastifyReply, FastifyRequest} from "fastify";
+import type { FastifyInstance } from 'fastify';
+import { userControllers } from './user.controllers.ts';
 
 export default function userRoutes(server: FastifyInstance) {
-
-    server.get("/", (request: FastifyRequest, reply: FastifyReply) => {
-        return reply.code(200).send({ user: 123 });
-    })
-
+    server.get('/', userControllers.getUser);
 }

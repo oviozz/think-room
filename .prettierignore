@@ -1,0 +1,11 @@
+node_modules
+dist
+build
+package-lock.json
+.pnp
+.pnp.js
+.next
+out
+.DS_Store
+*.log
+.env*

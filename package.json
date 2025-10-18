@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    },
+    "dependencies": {
+        "fastify-type-provider-zod": "^6.0.0"
+    }
+}
